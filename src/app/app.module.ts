@@ -4,6 +4,7 @@ import { NgModule } from '@angular/core';
 import { AppComponent } from './app.component';
 import { translations, translationChunksConfig } from '@spartacus/assets';
 import { B2cStorefrontModule } from '@spartacus/storefront';
+import { OutletModule } from '@spartacus/storefront';
 
 @NgModule({
   declarations: [
@@ -30,7 +31,8 @@ import { B2cStorefrontModule } from '@spartacus/storefront';
       features: {
         level: '2.1'
       }
-    })
+    }),
+    OutletModule
   ],
   providers: [],
   bootstrap: [AppComponent]
