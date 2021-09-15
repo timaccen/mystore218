@@ -4,7 +4,7 @@ import { NgModule } from '@angular/core';
 import { AppComponent } from './app.component';
 import { translations, translationChunksConfig } from '@spartacus/assets';
 import { B2cStorefrontModule } from '@spartacus/storefront';
-import { OutletModule } from '@spartacus/storefront';
+import { OutletModule } from './features/outlet/outlet.module';
 
 @NgModule({
   declarations: [
